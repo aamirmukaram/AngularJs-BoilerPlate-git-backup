@@ -1,0 +1,16 @@
+{
+  "name": "app-name",
+  "version": "1.0.0",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "bower-installer": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-angular-modules": "^0.1.8",
+    "gulp-inject": "^2.2.0",
+    "gulp-shell": "^0.4.3"
+  },
+  "scripts": {
+    "postinstall": "bower install"
+  }
+}

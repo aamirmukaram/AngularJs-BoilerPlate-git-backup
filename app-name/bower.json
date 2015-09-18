@@ -6,5 +6,8 @@
   },
   "install": {
     "path": "bower_required_components"
+  },
+  "devDependencies": {
+
   }
 }

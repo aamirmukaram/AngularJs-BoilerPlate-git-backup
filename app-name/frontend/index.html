@@ -9,19 +9,22 @@
 
 
     <!-- INJECTION POINTS FOR "gulp-inject" DO NOT CHANGE THE BELOW COMMENT LINE -->
-    <!-- inject:css -->
+    <!-- bower:css -->
     <!-- endinject -->
 
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body ng-controller="appNameCtrl">
 
 <!-- Add your site or application content here -->
-<p>Hello world! This is HTML5 Boilerplate.</p>
+<p>{{welcomeText}}</p>
 
 
-<!-- INJECTION POINTS FOR "gulp-inject" DO NOT CHANGE THE BELOW COMMENT LINE -->
-<!-- inject:js -->
+<!-- INJECTION POINTS FOR "gulp-inject" FOR BOWER DO NOT CHANGE THE BELOW COMMENT LINE -->
+<!-- bower:js -->
+
+
+<script src="../bower_components/angular/angular.js"></script>
 
 
 <!-- endinject -->
@@ -32,25 +35,6 @@
 
 <!-- INJECTION POINTS FOR "gulp-angular" DO NOT CHANGE THE BELOW COMMENT LINE -->
 <!-- angular:js -->
-
-
-<script src="/frontend/js/module-name-1/student-controller.js"></script>
-
-
-<script src="/frontend/js/module-name-1/student-directives.js"></script>
-
-
-<script src="/frontend/js/module-name-1/student-filters.js"></script>
-
-
-<script src="/frontend/js/module-name-1/student-routes.js"></script>
-
-
-<script src="/frontend/js/module-name-1/student-services.js"></script>
-
-
-<script src="/frontend/js/module-name-2/teacher-controller.js"></script>
-
 
 <!-- endinject -->
 

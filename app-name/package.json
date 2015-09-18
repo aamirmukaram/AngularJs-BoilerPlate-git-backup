@@ -4,15 +4,26 @@
   "version": "1.0.0",
   "dependencies": {},
   "devDependencies": {
+    "angular-mocks": "^1.4.6",
     "body-parser": "~1.0.0",
-    "bower-installer": "^1.2.0",
+    "chai": "^3.2.0",
     "express": "~4.0.0",
     "gulp": "^3.9.0",
     "gulp-angular-modules": "^0.1.8",
     "gulp-inject": "^2.2.0",
-    "gulp-shell": "^0.4.3",
+    "karma": "^0.13.9",
+    "karma-chai": "^0.1.0",
+    "karma-mocha": "^0.2.0",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "karma-requirejs": "^0.2.2",
+    "karma-sinon": "^1.0.4",
+    "main-bower-files": "^2.9.0",
+    "mocha": "^2.3.2",
     "mysql": "^2.9.0",
-    "sequelize": "^3.8.0"
+    "phantomjs": "^1.9.18",
+    "requirejs": "^2.1.20",
+    "sequelize": "^3.8.0",
+    "sinon": "^1.16.1"
   },
   "scripts": {
     "postinstall": "bower install"

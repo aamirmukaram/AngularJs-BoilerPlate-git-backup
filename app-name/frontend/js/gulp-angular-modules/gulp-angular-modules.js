@@ -1,4 +1,4 @@
 (function (ng) {
 'use strict';
-ng.module('gulp-angular-modules', ['studentController','studentDirectives','studentFilters','studentRoutes','studentServices']);
+ng.module('gulp-angular-modules', []);
 })(angular);

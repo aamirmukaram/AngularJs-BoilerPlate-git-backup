@@ -1,16 +1,19 @@
-describe('Person', function () {
+describe("appName", function() {
 
-    var Person;
     beforeEach(module('appName'));
-    beforeEach(inject(function (_Person_) {
-        Person = _Person_;
-    }));
 
-    describe('Constructor', function () {
+    describe("appNameCtrl", function() {
 
-        it('assigns a name', function () {
-            expect(new Person('Ben')).to.have.property('name', 'Ben');
+        var scope;
+        // load the controller's module
+        beforeEach(inject(function($rootScope, $controller) {
+            scope = $rootScope.$new();
+            $controller("appNameCtrl", {
+                $scope: scope
+            });
+        }));
+        it("should show the value of variable", function() {
+            expect(scope.welcomeText).toBe('Hello World');
         });
-
     });
 });

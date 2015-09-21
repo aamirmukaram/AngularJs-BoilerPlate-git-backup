@@ -19,10 +19,3 @@ Use this command after adding angular module file and adding angular.module("myM
 in it.
 
 This will inject dependecy in "gulp-angular-modules.js" and add that dependency in index.html
-////////////////////////////////////////////////////////////////////////////////////////
-
-Add angular snippets
-In a JavaScript file type these commands followed by a TAB:
-ng-c // creates an Angular controller
-ng-f // creates an Angular factory
-ng-m // creates an Angular module
